@@ -136,13 +136,14 @@
 .article-flex-icon {
   text-align: center;
   font-size: 12px;
-  color: #fff;
   margin-left: 90px;
 }
 
 .article-icon {
+  display: inline-block;
   padding: 14px 20px;
   background-color: #74cfae;
+  color: #fff;
 }
 
 /*OUR SKILLS*/
