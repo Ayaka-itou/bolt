@@ -8,6 +8,7 @@
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 
 .header-inner {
@@ -15,30 +16,40 @@
 }
 
 .bolt-icon {
-  font-size: 42px;
   color: #4e4e4e;
+  font-size: 42px;
 }
 
 .header-icon {
-  font-size: 12px;
-  padding: 14px 12px;
   background-color: #74cfae;
   color: #fff;
   float: right;
+  font-size: 12px;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+.icon {
+  font-family: Lato;
 }
 
 .icon:hover {
   color: #333;
-  transition: 0.3ms;
+  transition: 0.3s;
+}
+
+.title {
+  font-family: Raleway;
 }
 
 /*Bolt Theme*/
-.title {
+.main-title {
   background-color: #f2f2f2;
 }
 
 .title-inner {
-  padding: 250px 0;
+  padding-bottom: 250px;
+  padding-top: 322px;
   text-align: center;
 }
 
@@ -76,9 +87,14 @@
 
 .section-content {
   font-size: 20px;
-  word-break: keep-all;
+  font-family: Lato;
   margin: 35px auto;
-  width: 85%;
+  width: 76%;
+  word-break: keep-all;
+}
+
+.section-img {
+  vertical-align: bottom;
 }
 
 /*OUR LATEST WORK*/
@@ -107,7 +123,11 @@
 
 .article-image:hover {
   opacity: 1;
-  transition: 0.3ms;
+  transition: 0.3s;
+}
+
+.article-img {
+  vertical-align: top;
 }
 
 .article-image:nth-child(-n+3){
@@ -124,26 +144,28 @@
 
 .article-flex {
   display: flex;
-  margin-top: 90px;
   justify-content: center;
+  margin-top: 90px;
 }
 
 .article-flex-content {
+  font-family: Raleway;
   font-size: 20px;
-  width: 61%;
+  width: 56%;
 }
 
 .article-flex-icon {
-  text-align: center;
   font-size: 12px;
   margin-left: 90px;
+  text-align: center;
 }
 
 .article-icon {
-  display: inline-block;
-  padding: 14px 20px;
   background-color: #74cfae;
   color: #fff;
+  display: inline-block;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
 /*OUR SKILLS*/
@@ -157,21 +179,22 @@
 }
 
 .skills_section-title {
-  font-size: 24px;
   color: #fff;
+  font-size: 24px;
 }
 
 .skills_section-list {
   display: flex;
+  font-family: Lato;
+  justify-content: space-between;
   list-style-type: none;
   margin-top: 70px;
-  justify-content: space-between;
 }
 
 .skills_section-image {
-  margin-left: 180px;
-  font-size: 16px;
   color: #fff;
+  font-size: 16px;
+  margin-left: 180px;
 }
 
 .skills_section-image:first-child {
@@ -194,15 +217,15 @@
 }
 
 .nav-icon {
-  padding: 20px 0;
-  width: 185px;
   color: #74cfae;
   font-size: 60px;
+  padding: 20px 0;
+  width: 185px;
 }
 
 .nav-icon:hover {
   background-color: #fff;
-  transition: 0.3ms;
+  transition: 0.3s;
 }
 
 /*footer*/
@@ -211,8 +234,8 @@
 }
 
 .footer-inner {
-  padding: 20px 0 25px 0;
   color: #fff;
+  padding: 20px 0 25px 0;
   text-align: right;
 }
 
