@@ -1,0 +1,217 @@
+
+.inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+.header-inner {
+  padding: 15px;
+}
+
+.bolt-icon {
+  font-size: 42px;
+  color: #4e4e4e;
+}
+
+.header-icon {
+  font-size: 12px;
+  padding: 14px 12px;
+  background-color: #74cfae;
+  color: #fff;
+  float: right;
+}
+
+.icon:hover {
+  color: #333;
+  transition: 0.3ms;
+}
+
+/*Bolt Theme*/
+.title {
+  background-color: #f2f2f2;
+}
+
+.title-inner {
+  padding: 250px 0;
+  text-align: center;
+}
+
+.title-title {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.title-content {
+  color: #c0c0c0;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+/*WHAT WE CAN DO*/
+.section {
+  background-color: #74cfae;
+}
+
+.section-inner {
+  color: #fff;
+  display: flex;
+  flex-flow: row-reverse;
+  padding-top: 50px;
+}
+
+.section-text {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 24px;
+}
+
+.section-content {
+  font-size: 20px;
+  word-break: keep-all;
+  margin: 35px auto;
+  width: 85%;
+}
+
+/*OUR LATEST WORK*/
+.article {
+  background-color: #f2f2f2;
+}
+
+.article-inner {
+  padding: 60px 0 70px 0;
+  text-align: center;
+}
+
+.article-title {
+  font-size: 24px;
+}
+
+.article-image-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-image {
+  margin-left: 100px;
+  opacity: 0.7;
+}
+
+.article-image:hover {
+  opacity: 1;
+  transition: 0.3ms;
+}
+
+.article-image:nth-child(-n+3){
+  padding-top: 40px;
+}
+
+.article-image:nth-child(n+4) {
+  padding-top: 80px;
+}
+
+.article-image:first-child, :nth-last-child(3) {
+  margin-left: 0;
+}
+
+.article-flex {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+}
+
+.article-flex-content {
+  font-size: 20px;
+  width: 61%;
+}
+
+.article-flex-icon {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 90px;
+}
+
+.article-icon {
+  padding: 14px 20px;
+  background-color: #74cfae;
+}
+
+/*OUR SKILLS*/
+.skills_section {
+  background-color:	#4e4e4e;
+}
+
+.skills_section-inner {
+  padding: 70px 0 100px 0;
+  text-align: center;
+}
+
+.skills_section-title {
+  font-size: 24px;
+  color: #fff;
+}
+
+.skills_section-list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.skills_section-image {
+  margin-left: 180px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.skills_section-image:first-child {
+  margin-left: 0;
+}
+
+/*SNS*/
+.nav {
+  background-color: #f2f2f2;
+}
+
+.nav-inner {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-icon {
+  padding: 20px 0;
+  width: 185px;
+  color: #74cfae;
+  font-size: 60px;
+}
+
+.nav-icon:hover {
+  background-color: #fff;
+  transition: 0.3ms;
+}
+
+/*footer*/
+.footer {
+  background-color: #74cfae;
+}
+
+.footer-inner {
+  padding: 20px 0 25px 0;
+  color: #fff;
+  text-align: right;
+}
+
