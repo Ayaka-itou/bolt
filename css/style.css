@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+.bolt-body {
+  font-family: Lato;
+}
 
 .inner {
   margin: 0 auto;
@@ -12,7 +17,7 @@
 }
 
 .header-inner {
-  padding: 15px;
+  padding: 15px 0;
 }
 
 .bolt-icon {
@@ -27,15 +32,11 @@
   font-size: 12px;
   padding: 14px 12px;
   text-decoration: none;
-}
-
-.icon {
-  font-family: Lato;
+  transition: 0.3s;
 }
 
 .icon:hover {
   color: #333;
-  transition: 0.3s;
 }
 
 .title {
@@ -43,13 +44,16 @@
 }
 
 /*Bolt Theme*/
+.bolt-main {
+  padding-top: 72px;
+}
+
 .main-title {
   background-color: #f2f2f2;
 }
 
 .title-inner {
-  padding-bottom: 250px;
-  padding-top: 322px;
+  padding: 250px 0;
   text-align: center;
 }
 
@@ -73,7 +77,6 @@
 .section-inner {
   color: #fff;
   display: flex;
-  flex-flow: row-reverse;
   padding-top: 50px;
 }
 
@@ -87,7 +90,6 @@
 
 .section-content {
   font-size: 20px;
-  font-family: Lato;
   margin: 35px auto;
   width: 76%;
   word-break: keep-all;
@@ -114,31 +116,28 @@
 .article-image-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .article-image {
   margin-left: 100px;
   opacity: 0.7;
+  transition: 0.3s;
 }
 
 .article-image:hover {
   opacity: 1;
-  transition: 0.3s;
 }
 
 .article-img {
   vertical-align: top;
 }
 
-.article-image:nth-child(-n+3){
-  padding-top: 40px;
-}
-
 .article-image:nth-child(n+4) {
-  padding-top: 80px;
+  margin-top: 80px;
 }
 
-.article-image:first-child, :nth-last-child(3) {
+.article-image:nth-child(3n+1){
   margin-left: 0;
 }
 
@@ -149,9 +148,8 @@
 }
 
 .article-flex-content {
-  font-family: Raleway;
   font-size: 20px;
-  width: 56%;
+  width: 53%;
 }
 
 .article-flex-icon {
@@ -166,6 +164,7 @@
   display: inline-block;
   padding: 14px 20px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 /*OUR SKILLS*/
@@ -185,7 +184,6 @@
 
 .skills_section-list {
   display: flex;
-  font-family: Lato;
   justify-content: space-between;
   list-style-type: none;
   margin-top: 70px;
@@ -220,12 +218,13 @@
   color: #74cfae;
   font-size: 60px;
   padding: 20px 0;
+  text-decoration: none;
   width: 185px;
+  transition: 0.3s;
 }
 
 .nav-icon:hover {
   background-color: #fff;
-  transition: 0.3s;
 }
 
 /*footer*/
