@@ -81,6 +81,7 @@
 /*WHAT WE CAN DO*/
 .section {
   background-color: #74cfae;
+  text-align: center;
 }
 
 .section-inner {
@@ -91,6 +92,7 @@
 
 .section-text {
   text-align: center;
+  width: 60%;
 }
 
 .section-title {
@@ -100,8 +102,11 @@
 .section-content {
   font-size: 20px;
   margin: 35px auto 0 auto;
-  width: 76%;
   word-break: keep-all;
+}
+
+.section-image {
+  width: 40%;
 }
 
 .section-img {
@@ -126,6 +131,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+}
+
+.article-image-atag {
+  display: inline-block;
 }
 
 .article-image {
